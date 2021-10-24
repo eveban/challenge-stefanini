@@ -7,6 +7,7 @@ class Funcionario extends Model {
         id: {
           type: Sequelize.INTEGER,
           primaryKey: true,
+          autoIncrement: true,
         },
         idade: {
           type: Sequelize.INTEGER,
@@ -21,7 +22,8 @@ class Funcionario extends Model {
         },
       },
       {
-        tableName: "funcionario",
+        tableName: "funcionarios",
+        timestamps: false,
         sequelize,
       }
     );
