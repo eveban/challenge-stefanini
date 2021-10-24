@@ -3,6 +3,8 @@ import FuncionarioController from '../modules/funcionario/controllers/Funcionari
 
 const routes = Router();
 
-routes.post('/funcionario', FuncionarioController.create);
+routes.post('/funcionario', FuncionarioController.store);
+routes.get('/funcionarios', FuncionarioController.index);
+
 
 export default routes;
