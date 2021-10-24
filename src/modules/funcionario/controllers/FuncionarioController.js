@@ -23,4 +23,13 @@ export default {
     const funcionarioAtualizado = await Funcionario.findByPk(id);
     return response.json(funcionarioAtualizado);
   },
+
+  async delete(request, response) {
+    const { id } = request.params;
+    console.log(id);
+    await Funcionario.destroy({
+      where: { id },
+    });
+    return response.json({ message: "Funcionário excluído com sucesso" });
+  },
 };
