@@ -5,6 +5,7 @@ const routes = Router();
 
 routes.post('/funcionario', FuncionarioController.store);
 routes.get('/funcionarios', FuncionarioController.index);
+routes.put('/funcionario/:id', FuncionarioController.update);
 
 
 export default routes;

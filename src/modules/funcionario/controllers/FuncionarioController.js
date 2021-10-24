@@ -12,4 +12,15 @@ export default {
     const funcionario = await Funcionario.findAll();
     return response.json(funcionario);
   },
+
+  async update(request, response) {
+    const data = request.body;
+    const { id } = request.params;
+    console.log(id);
+    await Funcionario.update(data, {
+      where: { id },
+    });
+    const funcionarioAtualizado = await Funcionario.findByPk(id);
+    return response.json(funcionarioAtualizado);
+  },
 };
