@@ -83,7 +83,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[Express](https://expressjs.com/)**
 - **[Sequelize](https://sequelize.org/)**
 - **[Nodemon](https://www.npmjs.com/package/nodemon)**
-- **[PostgreSQL](https://www.postgresql.org/)**
+- **[MYSQL](https://www.mysql.com/)**
 - **[Sucrase](https://www.npmjs.com/package/sucrase)**
 
 ---
