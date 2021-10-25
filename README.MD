@@ -95,10 +95,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Publicação
 Projeto publicado na Digital Ocean para fins de testes.
 
-- **[Criação de Funcionário (POST)](https://stefanini.pitstopcabines.com.br/funcionario)**
-- **[Listagem de Funcionários (GET)](https://stefanini.pitstopcabines.com.br/funcionarios)**
-- **[Atualização de Funcionário (PUT)](https://stefanini.pitstopcabines.com.br/funcionario/:id)**
-- **[Exclusão de Funcionário (DELETE)](https://stefanini.pitstopcabines.com.br/funcionario/:id)**
+- **[Criação de Funcionário (POST)](https://challenge.pitstopcabines.com.br/funcionario)**
+- **[Listagem de Funcionários (GET)](https://challenge.pitstopcabines.com.br/funcionarios)**
+- **[Atualização de Funcionário (PUT)](https://challenge.pitstopcabines.com.br/funcionario/:id)**
+- **[Exclusão de Funcionário (DELETE)](https://challenge.pitstopcabines.com.br/funcionario/:id)**
 
 <p align="left">
   <a href="https://insomnia.rest/download" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
